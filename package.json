@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "website-nuxt",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -9,14 +9,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@types/node": "^18",
-    "@unocss/nuxt": "^0.53.5",
-    "nuxt": "^3.6.3",
     "@element-plus/nuxt": "^1.0.5",
     "@nuxt/devtools": "^0.6.7",
-    "@vueuse/nuxt": "^10.2.0",
     "@pinia/nuxt": "^0.4.11",
+    "@types/node": "^18",
+    "@unocss/nuxt": "^0.53.5",
+    "@vueuse/nuxt": "^10.2.0",
     "element-plus": "^2.3.6",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "nuxt": "^3.6.3",
+    "pinia": "^2.1.4"
   }
 }
